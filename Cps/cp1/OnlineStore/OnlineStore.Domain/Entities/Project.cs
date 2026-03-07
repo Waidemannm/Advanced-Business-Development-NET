@@ -1,6 +1,0 @@
-namespace OnlineSore.Domain.Entities;
-
-public class Project
-{
-    
-}

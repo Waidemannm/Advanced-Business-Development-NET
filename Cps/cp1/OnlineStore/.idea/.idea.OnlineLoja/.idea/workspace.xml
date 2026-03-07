@@ -11,159 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adcc18f8-aefd-4969-bf4c-81757a343c78" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/.idea/.idea.OnlineLoja/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/.idea/.idea.OnlineLoja/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/.idea/.idea.OnlineLoja/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/.idea/.idea.OnlineLoja/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/.idea/.idea.OnlineLoja/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineLoja.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/OnlineStore.API.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/OnlineStore.API.http" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/obj/Debug/net10.0/OnlineStore.API.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/obj/Debug/net10.0/OnlineStore.API.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/obj/Debug/net10.0/OnlineStore.API.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/obj/Debug/net10.0/OnlineStore.API.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/obj/Debug/net10.0/OnlineStore.API.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/obj/Debug/net10.0/OnlineStore.API.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/obj/OnlineStore.API.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/obj/OnlineStore.API.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/obj/OnlineStore.API.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.API/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Application/OnlineStore.Application.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Application/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Application/obj/Debug/net10.0/OnlineStore.Application.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Application/obj/Debug/net10.0/OnlineStore.Application.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Application/obj/Debug/net10.0/OnlineStore.Application.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Application/obj/Debug/net10.0/OnlineStore.Application.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Application/obj/Debug/net10.0/OnlineStore.Application.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Application/obj/OnlineStore.Application.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Application/obj/OnlineStore.Application.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Application/obj/OnlineStore.Application.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Application/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Application/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Application/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Application/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Application/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/Commom/BaseEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/Entities/Address.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/Entities/Category.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/Entities/Costumer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/Entities/Payment.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/Entities/Project.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/Entities/RatingProduct.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/Enum/GenderEnum.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/Enum/PaymentEnum.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/Enum/ScoreEnum.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/OnlineStore.Domain.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/Debug/net10.0/OnlineSore.Domain.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/Debug/net10.0/OnlineSore.Domain.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/Debug/net10.0/OnlineSore.Domain.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/Debug/net10.0/OnlineSore.Domain.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/Debug/net10.0/OnlineSore.Domain.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/OnlineSore.Domain.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/OnlineSore.Domain.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/OnlineSore.Domain.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/OnlineStore.Domain.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/OnlineStore.Domain.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/OnlineStore.Domain.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Domain/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/OnlineStore.Infrastructure.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/Debug/net10.0/Online.Infrastructure.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/Debug/net10.0/Online.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/Debug/net10.0/Online.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/Debug/net10.0/Online.Infrastructure.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/Debug/net10.0/Online.Infrastructure.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineInfrastructure.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineInfrastructure.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineInfrastructure.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineInfrastructure.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineInfrastructure.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineStore.Infrastructure.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineStore.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineStore.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineStore.Infrastructure.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineStore.Infrastructure.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/Online.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/Online.Infrastructure.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/Online.Infrastructure.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/OnlineInfrastructure.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/OnlineInfrastructure.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/OnlineInfrastructure.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/OnlineStore.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/OnlineStore.Infrastructure.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/OnlineStore.Infrastructure.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineLoja/OnlineStore.Infrastructure/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales.dmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/ChangeRequests.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/businessinfo/Business Information.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/businessinfo/Objects.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/datatypes/DDLSelection.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/datatypes/DataTypes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/datatypes/Diagrams.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/datatypes/Objects.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/datatypes/structuredtype/seg_0/47E390DE-0671-C4B1-8428-0F45CBEE18F8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/datatypes/structuredtype/seg_0/F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/datatypes/subviews/83E520BA-CE5D-2BCA-25B9-7CA7A2FBDAF7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/dl_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/dmd_open.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/logical/Diagrams.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/logical/Logical.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/logical/Objects.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/logical/entity/seg_0/1C493AA3-3AFE-AD58-B006-0AC81A5E66E4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/logical/entity/seg_0/1C9FC71E-01E6-CD62-3286-B2EDD8E7F103.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/logical/entity/seg_0/53A9A593-94AF-AA49-8DE1-CF94AB805E39.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/logical/entity/seg_0/60B3D434-9CF9-B887-E8B6-5D4527FA5496.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/logical/entity/seg_0/6D9EFB4C-C1DB-CE9B-B870-8869A529EC9B.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/logical/entity/seg_0/6E97A84C-B06F-871E-FED9-9F74AAD33755.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/logical/relation/seg_0/284F60C1-584B-341E-023D-EEC500D71845.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/logical/relation/seg_0/57C80AD5-9C57-9B47-2318-3F166B15944F.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/logical/relation/seg_0/B0F01261-2E91-F0C9-35A9-75FD9E3419D8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/logical/relation/seg_0/BA3EA6F9-2749-9D08-189F-0C963D51EFD2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/logical/relation/seg_0/BA5168D0-26D5-F3F0-C9CE-154422ACBA6C.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/logical/subviews/4448AEBF-3D8B-6D94-D7FB-3F50840237AA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/mapping/DeletedMap_RMB7884481-4DAD-851F-D340-BAEBECCF223F.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/mapping/ExtendedMap.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/mapping/ExtendedMap_RMB7884481-4DAD-851F-D340-BAEBECCF223F.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/online-sales/ChangeRequests.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/online-sales/businessinfo/Objects.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/online-sales/datatypes/Diagrams.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/online-sales/datatypes/Objects.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/online-sales/logical/Diagrams.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/online-sales/logical/Objects.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/online-sales/pm/Objects.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/pm/Objects.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/pm/Process Model.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/rdbms/online-sales_RDBMSSites.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/rel/B7884481-BAEBECCF223F.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/rel/B7884481-BAEBECCF223F/DDLSelection.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/rel/B7884481-BAEBECCF223F/Diagrams.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/rel/B7884481-BAEBECCF223F/Objects.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-sales/online-sales/rel/B7884481-BAEBECCF223F/subviews/EE7AA1D6-BCB4-38B9-0DEB-2E2F8B85A8FE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSale.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OnlineLoja/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OnlineLoja/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineStore.Domain/Enum/ScoreEnum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStore.Domain/Enum/ScoreEnum.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineStore.Domain/OnlineStore.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStore.Domain/OnlineStore.Domain.csproj" afterDir="false" />
+    </list>
+    <list id="d919be22-de72-4ee8-8ce6-0952c992255a" name="Changes by Thiago" comment="">
+      <change beforePath="$PROJECT_DIR$/OnlineStore.Domain/Entities/Address.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStore.Domain/Entities/Address.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineStore.Domain/Entities/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStore.Domain/Entities/Category.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,23 +55,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/waidemannn_m/Desktop/ADVANCED-BUSINESS-DEVELOPMENT-NET/Cps/cp1/OnlineStore",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "inlay.hints",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/waidemannn_m/Desktop/ADVANCED-BUSINESS-DEVELOPMENT-NET/Cps/cp1/OnlineStore&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.OnlineLoja: http">
     <configuration name="OnlineLoja: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/OnlineLoja.API/OnlineLoja.API.csproj" />
@@ -320,7 +175,7 @@
       <updated>1772749337429</updated>
       <workItem from="1772749338450" duration="1298000" />
       <workItem from="1772750969256" duration="120000" />
-      <workItem from="1772816341675" duration="306000" />
+      <workItem from="1772816341675" duration="4672000" />
     </task>
     <servers />
   </component>
