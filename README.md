@@ -3,7 +3,6 @@
 ## 📌 Disciplina
 Advanced-Business-Development-NET - FIAP
 
-
 ## 🎯 Tipo
 - ( ) CP
 
@@ -14,7 +13,6 @@ Projeto desenvolvido para a disciplina de Advanced-Business-Development-NET com 
 O sistema tem como objetivo:
 - [Objetivo principal]
 - [Problema que resolve]
-
 
 ## 🚀 Como Executar
 1. Clonar o repositório
