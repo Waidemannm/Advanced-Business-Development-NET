@@ -1,41 +1,51 @@
-var builder = WebApplication.CreateBuilder(args);
+using Microsoft.EntityFrameworkCore;
+using OnlineInfrastructure.Persistence;
+namespace OnlineSore.Domain;
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+/// <summary>
+/// Ponto de entrada da aplicação.
+/// Configura e executa o pipeline da API ASP.NET Core.
+/// </summary>
+public class Program
 {
-    app.MapOpenApi();
-}
-
-app.UseHttpsRedirection();
-
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
+    public static void Main(string[] args)
     {
-        var forecast = Enumerable.Range(1, 5).Select(index =>
-                new WeatherForecast
-                (
-                    DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                    Random.Shared.Next(-20, 55),
-                    summaries[Random.Shared.Next(summaries.Length)]
-                ))
-            .ToArray();
-        return forecast;
-    })
-    .WithName("GetWeatherForecast");
+        var builder = WebApplication.CreateBuilder(args);
 
-app.Run();
+        // Registra os controllers da API
+        builder.Services.AddControllers();
 
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+        // AddScoped: uma instância por requisição HTTP (guardado)
+        
+        // AddTransient: nova instância a cada resolução
+        // AddSingleton: uma única instância durante toda a vida da aplicação
+        //builder.Services.AddScoped<IUserService, UserService>();
+
+        //Registrando banco de dados no contexto de injecao de dependencia
+        builder.Services.AddDbContext<OnlineStoreContext>(options =>
+        {
+            var connectionString = builder.Configuration.GetConnectionString("OnlineStoreContextOracle");
+            
+            
+            options.UseOracle(connectionString);
+            
+        });
+
+        // OpenAPI/Swagger - documentação da API
+        builder.Services.AddOpenApi();
+
+        var app = builder.Build();
+
+        // Pipeline de requisições
+        if (app.Environment.IsDevelopment())
+        {
+            app.MapOpenApi(); // /openapi/v1.json
+        }
+
+        app.UseHttpsRedirection();
+        app.UseAuthorization();
+        app.MapControllers();
+
+        app.Run();
+    }
 }
