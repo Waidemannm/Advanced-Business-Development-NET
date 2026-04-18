@@ -5,5 +5,6 @@ public enum ScoreEnum
     Bad = 1,
     Regular = 2,
     Good = 3,
-    Excelent = 4
+    VeryGood = 4,
+    Excellent = 5
 }

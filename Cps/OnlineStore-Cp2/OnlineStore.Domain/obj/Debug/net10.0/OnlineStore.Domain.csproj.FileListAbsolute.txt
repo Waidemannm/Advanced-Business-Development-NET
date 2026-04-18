@@ -10,3 +10,16 @@
 /Users/waidemannn_m/Desktop/ADVANCED-BUSINESS-DEVELOPMENT-NET/Cps/cp1/OnlineStore/OnlineStore.Domain/obj/Debug/net10.0/refint/OnlineStore.Domain.dll
 /Users/waidemannn_m/Desktop/ADVANCED-BUSINESS-DEVELOPMENT-NET/Cps/cp1/OnlineStore/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.pdb
 /Users/waidemannn_m/Desktop/ADVANCED-BUSINESS-DEVELOPMENT-NET/Cps/cp1/OnlineStore/OnlineStore.Domain/obj/Debug/net10.0/ref/OnlineStore.Domain.dll
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Domain/bin/Debug/net10.0/OnlineStore.Domain.deps.json
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Domain/bin/Debug/net10.0/OnlineStore.Domain.dll
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Domain/bin/Debug/net10.0/OnlineStore.Domain.pdb
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.csproj.AssemblyReference.cache
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.AssemblyInfoInputs.cache
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.AssemblyInfo.cs
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.csproj.CoreCompileInputs.cache
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.sourcelink.json
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.dll
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Domain/obj/Debug/net10.0/refint/OnlineStore.Domain.dll
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.pdb
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Domain/obj/Debug/net10.0/ref/OnlineStore.Domain.dll

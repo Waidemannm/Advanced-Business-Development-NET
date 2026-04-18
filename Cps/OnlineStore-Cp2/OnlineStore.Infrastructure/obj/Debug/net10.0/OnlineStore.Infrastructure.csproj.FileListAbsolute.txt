@@ -10,3 +10,12 @@
 /Users/waidemannn_m/Desktop/ADVANCED-BUSINESS-DEVELOPMENT-NET/Cps/cp1/OnlineStore/OnlineStore.Infrastructure/obj/Debug/net10.0/refint/OnlineStore.Infrastructure.dll
 /Users/waidemannn_m/Desktop/ADVANCED-BUSINESS-DEVELOPMENT-NET/Cps/cp1/OnlineStore/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineStore.Infrastructure.pdb
 /Users/waidemannn_m/Desktop/ADVANCED-BUSINESS-DEVELOPMENT-NET/Cps/cp1/OnlineStore/OnlineStore.Infrastructure/obj/Debug/net10.0/ref/OnlineStore.Infrastructure.dll
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineStore.Infrastructure.csproj.AssemblyReference.cache
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineStore.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineStore.Infrastructure.AssemblyInfoInputs.cache
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineStore.Infrastructure.AssemblyInfo.cs
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineStore.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineStore.Infrastructure.sourcelink.json
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineStore.Infrastructure.dll
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Infrastructure/obj/Debug/net10.0/refint/OnlineStore.Infrastructure.dll
+/Users/waidemannn_m/Desktop/Advanced-Business-Development-NET/Cps/OnlineStore-Cp2/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineStore.Infrastructure.pdb

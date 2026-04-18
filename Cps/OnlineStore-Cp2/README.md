@@ -8,8 +8,12 @@ Moisés Waidemann Molinillo Júnior, RM: 563719
 Gabriel Sbrana Campos, RM: 565849  
 ___ 
 ## Domínio Escolhido
-Este projeto consiste em uma loja on-line onde o cliente pode visualizar produtos, realizar pedidos, escolher a forma de pagamento e avaliar os itens adquiridos. 
+Este projeto consiste em uma compra em um e-commerce onde o cliente pode visualizar produtos, realizar pedidos, escolher a forma de pagamento e avaliar os itens adquiridos. 
 ___
+
+## SGBD
+Oracle DB
+___ 
 
 ## Entidades Modeladas
 - **Costumer**: Recebe os seguintes atributos: IdPayment, IdAdress, Name, Birthdate, Gender e Email.
