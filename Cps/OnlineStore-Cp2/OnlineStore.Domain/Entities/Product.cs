@@ -1,6 +1,8 @@
+using OnlineSore.Domain.Commom;
+
 namespace OnlineSore.Domain.Entities;
 
-public class Product
+public class Product: BaseEntity
 {
     public Guid IdCategory { get; private set; }
     

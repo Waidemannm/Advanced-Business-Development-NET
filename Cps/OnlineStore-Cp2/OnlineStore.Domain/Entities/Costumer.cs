@@ -1,8 +1,9 @@
+using OnlineSore.Domain.Commom;
 using OnlineSore.Domain.Enum;
 
 namespace OnlineSore.Domain.Entities;
 
-public class Costumer
+public class Costumer : BaseEntity
 {
 
     //1:N
@@ -13,9 +14,7 @@ public class Costumer
 
     public string Name { get; private set; }
 
-    private DateOnly SetBirthDate { get; set; }
-    
-    public int Age => CalculateAge(SetBirthDate);
+    public DateOnly SetBirthDate { get; set; }
     
     public GenderEnum? Gender { get; private set; }
     
@@ -25,7 +24,7 @@ public class Costumer
     {
         
     }
-    public Costumer(Guid idPayment,  Guid idAddress, string name, DateOnly birthDate, int age , GenderEnum? gender, string email)
+    public Costumer(Guid idPayment,  Guid idAddress, string name, DateOnly birthDate, GenderEnum? gender, string email)
     {
         IdPayment = idPayment;
         IdAddress = idAddress;

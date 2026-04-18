@@ -1,8 +1,9 @@
+using OnlineSore.Domain.Commom;
 using OnlineSore.Domain.Enum;
 
 namespace OnlineSore.Domain.Entities;
 
-public class Payment
+public class Payment: BaseEntity
 {
     public decimal Value { get; private set; }
 

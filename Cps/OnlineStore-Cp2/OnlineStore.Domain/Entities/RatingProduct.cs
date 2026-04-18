@@ -1,8 +1,9 @@
+using OnlineSore.Domain.Commom;
 using OnlineSore.Domain.Enum;
  
  namespace OnlineSore.Domain.Entities;
  
- public class RatingProduct
+ public class RatingProduct : BaseEntity
  {
      public Guid IdCostumer { get; private set; }
  
@@ -19,6 +20,16 @@ using OnlineSore.Domain.Enum;
      {
          IdProduct = idProduct;
          IdCostumer =  idCostumer;
+         Score = score;
+     }
+     
+     
+     public void UpdateScore(ScoreEnum score)
+     {
+         // Valida se o valor existe dentro do Enum definido
+         if (score != ScoreEnum.Regular &&  score != ScoreEnum.VeryGood && score != ScoreEnum.Excellent && score != ScoreEnum.Bad &&  score != ScoreEnum.Good)
+             throw new ArgumentOutOfRangeException(nameof(score), "Erro ao avaliar produto");
+
          Score = score;
      }
  }

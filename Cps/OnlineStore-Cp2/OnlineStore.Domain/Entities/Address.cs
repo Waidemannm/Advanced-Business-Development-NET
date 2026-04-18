@@ -4,8 +4,6 @@ namespace OnlineSore.Domain.Entities;
 
 public class Address : BaseEntity
 {
-    //1:1
-    public Guid IdCostumer { get; private set; }
 
     public string Street { get; private set; }
 
