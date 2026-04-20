@@ -15,7 +15,7 @@ public class ProductConfiguration : IEntityTypeConfiguration<Product>
             .IsRequired()
             .HasColumnName("ID_PRODUCT"); 
         
-        builder.HasOne<Product>()
+        builder.HasOne<Category>()
             .WithMany()
             .HasForeignKey(p => p.IdCategory)
             .OnDelete(DeleteBehavior.Cascade);

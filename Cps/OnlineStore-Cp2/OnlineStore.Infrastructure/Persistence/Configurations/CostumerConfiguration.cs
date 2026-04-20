@@ -57,7 +57,7 @@ public class CostumerConfiguration : IEntityTypeConfiguration<Costumer>
             .HasMaxLength(100)
             .IsRequired();
 
-        builder.HasIndex(c => c.Name)
+        builder.HasIndex(c => c.Email)
             .IsUnique();
         
     }
