@@ -184,3 +184,25 @@ Implementa `IExceptionHandler` e retorna respostas no padrão **RFC 7807** (`app
 | CP1 | MER + Entidades C# sem banco |
 | CP2 | Schema físico + EF Core + Oracle + Migrations |
 | CP3 | **API REST** + Swagger completo + `IRepository<T>` + `GlobalExceptionHandler` |
+
+## 🩺 Health Checks e Observabilidade (CP4)
+
+**Health Checks**: A API conta com endpoints de Health Check registrados via `Microsoft.Extensions.Diagnostics.HealthChecks`.
+- **`GET /health`**: Retorna um JSON contendo o status geral (`Healthy`, `Degraded` ou `Unhealthy`) e a verificação do Banco de Dados Oracle.
+
+**Observabilidade (Logs)**: 
+- Foram implementados logs estruturados com `ILogger` nos controllers. O log é gerado no início e no final (sucesso/falha) das requisições (ex: em `ProductController.Create`).
+- Cada log carrega o `traceId` (`HttpContext.TraceIdentifier`) para facilitar correlações.
+- O `GlobalExceptionHandler` também loga o `traceId` em nível de erro.
+- Em desenvolvimento, o `traceId` é retornado na extensão da resposta do `ProblemDetails`.
+
+## 🧪 Testes Automatizados (xUnit - CP4)
+
+O projeto contém testes automatizados (base da pirâmide e integração de serviços) utilizando **xUnit** e **Moq**.
+- **Domain.Tests**: Testes que garantem regras de domínio puras (ex: validação da Entidade Category). (Utilizando os padrões Arrange/Act/Assert, `[Fact]` e `[Theory]`).
+- **Application.Tests**: Testes sobre `ProductService` utilizando `Moq` para isolar o Repositório, garantindo as regras de negócio em cenários de exceção e sucesso.
+
+Para rodar todos os testes, execute o seguinte comando na raiz da Solução:
+```bash
+dotnet test
+```

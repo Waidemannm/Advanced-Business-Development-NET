@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tSU6w1Gk8xw=",
+  "dgSpecHash": "n+7iPsYgX1Y=",
   "success": true,
   "projectFilePath": "/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp3/OnlineStore.API/OnlineStore.API.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "/Users/waidemannn_m/.nuget/packages/microsoft.entityframeworkcore.relational/9.0.14/microsoft.entityframeworkcore.relational.9.0.14.nupkg.sha512",
     "/Users/waidemannn_m/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/waidemannn_m/.nuget/packages/microsoft.extensions.dependencymodel/9.0.14/microsoft.extensions.dependencymodel.9.0.14.nupkg.sha512",
+    "/Users/waidemannn_m/.nuget/packages/microsoft.extensions.diagnostics.healthchecks.entityframeworkcore/9.0.14/microsoft.extensions.diagnostics.healthchecks.entityframeworkcore.9.0.14.nupkg.sha512",
     "/Users/waidemannn_m/.nuget/packages/microsoft.openapi/1.6.22/microsoft.openapi.1.6.22.nupkg.sha512",
     "/Users/waidemannn_m/.nuget/packages/mono.texttemplating/3.0.0/mono.texttemplating.3.0.0.nupkg.sha512",
     "/Users/waidemannn_m/.nuget/packages/oracle.entityframeworkcore/9.23.60/oracle.entityframeworkcore.9.23.60.nupkg.sha512",

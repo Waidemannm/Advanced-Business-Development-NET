@@ -2,9 +2,10 @@ using Microsoft.EntityFrameworkCore;
 using OnlineStore.API.Exceptions;
 using OnlineStore.API.Extensions;
 using OnlineStore.Application.Interfaces;
-using OnlineStore.Infrastructure.Services;
+using OnlineStore.Application.Services;
 using OnlineStore.Infrastructure.Persistence;
 using OnlineStore.Infrastructure.Persistence.Repositories;
+using OnlineStore.Infrastructure.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +19,9 @@ builder.Services.AddOnlineStoreSwagger();
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
 builder.Services.AddProblemDetails();
 
+// ── Health Checks ─────────────────────────────────────────────────────────────
+builder.Services.AddOnlineStoreHealthChecks();
+
 // ── Banco de dados — Oracle + EF Core ─────────────────────────────────────────
 builder.Services.AddDbContext<OnlineStoreContext>(options =>
 {
@@ -26,13 +30,12 @@ builder.Services.AddDbContext<OnlineStoreContext>(options =>
 });
 
 // ── Repositório Genérico ──────────────────────────────────────────────────────
-// Registro como open generic — resolve IRepository<T> para qualquer T : BaseEntity
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
-// ── Serviços de Aplicação ─────────────────────────────────────────────────────
-builder.Services.AddScoped<IAddressService,       AddressService>();
-builder.Services.AddScoped<ICategoryService,      CategoryService>();
-builder.Services.AddScoped<IProductService,       ProductService>();
+// ── Serviços ──────────────────────────────────────────────────────────────────
+builder.Services.AddScoped<IAddressService, AddressService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 // ─────────────────────────────────────────────────────────────────────────────
 var app = builder.Build();
@@ -43,6 +46,8 @@ app.UseExceptionHandler();
 // ── Swagger UI (apenas em ambiente de desenvolvimento) ────────────────────────
 if (app.Environment.IsDevelopment())
     app.UseOnlineStoreSwagger();
+
+app.UseOnlineStoreHealthChecks(app.Environment);
 
 app.UseHttpsRedirection();
 app.UseAuthorization();

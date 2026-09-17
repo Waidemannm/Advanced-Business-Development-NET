@@ -4,21 +4,6 @@ using OnlineStore.Domain.Exceptions;
 
 namespace OnlineStore.API.Exceptions;
 
-/// <summary>
-/// Handler centralizado de exceções. Converte exceções em respostas RFC 7807 (ProblemDetails).
-/// Registrado no pipeline via <c>app.UseExceptionHandler()</c>.
-/// </summary>
-/// <remarks>
-/// Mapeamento de exceções para códigos HTTP:
-/// <list type="table">
-///   <listheader><term>Exceção</term><description>Status HTTP</description></listheader>
-///   <item><term>ArgumentException / ArgumentNullException</term><description>400 Bad Request</description></item>
-///   <item><term>InvalidOperationException</term><description>400 Bad Request</description></item>
-///   <item><term>DomainException</term><description>400 Bad Request</description></item>
-///   <item><term>ResourceNotFoundException / KeyNotFoundException</term><description>404 Not Found</description></item>
-///   <item><term>Qualquer outra exceção</term><description>500 Internal Server Error</description></item>
-/// </list>
-/// </remarks>
 public sealed class GlobalExceptionHandler(
     ILogger<GlobalExceptionHandler> logger,
     IHostEnvironment environment) : IExceptionHandler
@@ -28,7 +13,9 @@ public sealed class GlobalExceptionHandler(
         Exception exception,
         CancellationToken cancellationToken)
     {
-        logger.LogError(exception, "Exceção não tratada: {Message}", exception.Message);
+        var traceId = httpContext.TraceIdentifier;
+
+        logger.LogError(exception, "Exceção não tratada: {Message}. TraceId: {TraceId}", exception.Message, traceId);
 
         var (status, title) = exception switch
         {
@@ -41,7 +28,6 @@ public sealed class GlobalExceptionHandler(
             _                          => (StatusCodes.Status500InternalServerError, "Erro interno do servidor")
         };
 
-        // Em produção, detalhes internos não são expostos para evitar vazamento de informações sensíveis
         var detail = environment.IsDevelopment()
             ? exception.ToString()
             : (status == StatusCodes.Status500InternalServerError
@@ -56,6 +42,11 @@ public sealed class GlobalExceptionHandler(
             Type     = $"https://httpstatuses.com/{status}",
             Instance = httpContext.Request.Path
         };
+
+        if (environment.IsDevelopment())
+        {
+            problem.Extensions["traceId"] = traceId;
+        }
 
         httpContext.Response.StatusCode  = status;
         httpContext.Response.ContentType = "application/problem+json";
