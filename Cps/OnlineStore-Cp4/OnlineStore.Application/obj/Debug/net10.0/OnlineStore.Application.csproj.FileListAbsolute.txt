@@ -30,3 +30,14 @@
 /Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Application/obj/Debug/net10.0/refint/OnlineStore.Application.dll
 /Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Application/obj/Debug/net10.0/OnlineStore.Application.pdb
 /Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Application/obj/Debug/net10.0/ref/OnlineStore.Application.dll
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Application/bin/Debug/net10.0/OnlineStore.Application.dll
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Application/bin/Debug/net10.0/OnlineStore.Application.pdb
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Application/obj/Debug/net10.0/OnlineStore.Application.csproj.AssemblyReference.cache
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Application/obj/Debug/net10.0/OnlineStore.Application.GeneratedMSBuildEditorConfig.editorconfig
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Application/obj/Debug/net10.0/OnlineStore.Application.AssemblyInfoInputs.cache
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Application/obj/Debug/net10.0/OnlineStore.Application.AssemblyInfo.cs
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Application/obj/Debug/net10.0/OnlineStore.Application.csproj.CoreCompileInputs.cache
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Application/obj/Debug/net10.0/OnlineStore.Application.sourcelink.json
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Application/obj/Debug/net10.0/OnlineStore.Application.dll
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Application/obj/Debug/net10.0/refint/OnlineStore.Application.dll
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Application/obj/Debug/net10.0/OnlineStore.Application.pdb

@@ -1,4 +1,4 @@
-# OnlineStore — CP3 🛒
+# OnlineStore — CP4 🛒
 
 ## 👥 Integrantes do Grupo
 

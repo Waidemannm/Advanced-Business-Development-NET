@@ -22,3 +22,13 @@
 /Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Domain/obj/Debug/net10.0/refint/OnlineStore.Domain.dll
 /Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.pdb
 /Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Domain/obj/Debug/net10.0/ref/OnlineStore.Domain.dll
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Domain/bin/Debug/net10.0/OnlineStore.Domain.dll
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Domain/bin/Debug/net10.0/OnlineStore.Domain.pdb
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.AssemblyInfoInputs.cache
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.AssemblyInfo.cs
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.csproj.CoreCompileInputs.cache
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.sourcelink.json
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.dll
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Domain/obj/Debug/net10.0/refint/OnlineStore.Domain.dll
+/private/tmp/verify-repo/Cps/OnlineStore-Cp4/OnlineStore.Domain/obj/Debug/net10.0/OnlineStore.Domain.pdb

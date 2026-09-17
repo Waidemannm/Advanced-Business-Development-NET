@@ -25,3 +25,12 @@
 /Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineStore.Infrastructure.dll
 /Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Infrastructure/obj/Debug/net10.0/refint/OnlineStore.Infrastructure.dll
 /Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineStore.Infrastructure.pdb
+/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Infrastructure/bin/Debug/net10.0/OnlineStore.Infrastructure.deps.json
+/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Infrastructure/bin/Debug/net10.0/OnlineStore.Infrastructure.dll
+/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Infrastructure/bin/Debug/net10.0/OnlineStore.Infrastructure.pdb
+/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Infrastructure/bin/Debug/net10.0/OnlineStore.Application.dll
+/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Infrastructure/bin/Debug/net10.0/OnlineStore.Domain.dll
+/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Infrastructure/bin/Debug/net10.0/OnlineStore.Application.pdb
+/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Infrastructure/bin/Debug/net10.0/OnlineStore.Domain.pdb
+/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Infrastructure/obj/Debug/net10.0/OnlineSt.A30D6540.Up2Date
+/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Infrastructure/obj/Debug/net10.0/ref/OnlineStore.Infrastructure.dll
