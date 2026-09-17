@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OnlineStore.API</name>
+    </assembly>
+    <members>
+        <member name="T:OnlineStore.API.Controllers.AddressController">
+            <summary>Gerenciamento de endereços dos clientes.</summary>
+        </member>
+        <member name="M:OnlineStore.API.Controllers.AddressController.GetAll">
+            <summary>Retorna todos os endereços cadastrados.</summary>
+            <response code="200">Lista de endereços retornada com sucesso.</response>
+        </member>
+        <member name="M:OnlineStore.API.Controllers.AddressController.GetById(System.Guid)">
+            <summary>Busca um endereço pelo identificador único.</summary>
+            <param name="id">GUID do endereço.</param>
+            <response code="200">Endereço encontrado.</response>
+            <response code="404">Endereço não encontrado.</response>
+        </member>
+        <member name="M:OnlineStore.API.Controllers.AddressController.Create(OnlineStore.Application.DTO.CreateAddressRequest)">
+            <summary>Cria um novo endereço.</summary>
+            <param name="request">Dados do endereço a ser criado.</param>
+            <response code="201">Endereço criado com sucesso.</response>
+            <response code="400">Dados inválidos.</response>
+        </member>
+        <member name="M:OnlineStore.API.Controllers.AddressController.Update(System.Guid,OnlineStore.Application.DTO.UpdateAddressRequest)">
+            <summary>Atualiza um endereço existente.</summary>
+            <param name="id">GUID do endereço.</param>
+            <param name="request">Campos a serem atualizados (parcial).</param>
+            <response code="200">Endereço atualizado.</response>
+            <response code="400">Dados inválidos.</response>
+            <response code="404">Endereço não encontrado.</response>
+        </member>
+        <member name="M:OnlineStore.API.Controllers.AddressController.Delete(System.Guid)">
+            <summary>Remove um endereço pelo identificador único.</summary>
+            <param name="id">GUID do endereço.</param>
+            <response code="204">Endereço removido.</response>
+            <response code="404">Endereço não encontrado.</response>
+        </member>
+        <member name="T:OnlineStore.API.Controllers.CategoryController">
+            <summary>
+            Gerenciamento de categorias de produtos.
+            <br/>Este controller demonstra o uso direto do <see cref="T:OnlineStore.Application.Interfaces.IRepository`1"/> genérico (sem serviço intermediário).
+            </summary>
+        </member>
+        <member name="M:OnlineStore.API.Controllers.CategoryController.GetAll">
+            <summary>Retorna todas as categorias cadastradas.</summary>
+            <response code="200">Lista de categorias retornada com sucesso.</response>
+        </member>
+        <member name="M:OnlineStore.API.Controllers.CategoryController.GetById(System.Guid)">
+            <summary>Busca uma categoria pelo identificador único.</summary>
+            <param name="id">GUID da categoria.</param>
+            <response code="200">Categoria encontrada.</response>
+            <response code="404">Categoria não encontrada.</response>
+        </member>
+        <member name="M:OnlineStore.API.Controllers.CategoryController.Create(OnlineStore.Application.DTO.CreateCategoryRequest)">
+            <summary>Cria uma nova categoria.</summary>
+            <remarks>
+            Exemplo de payload:
+            <code>
+            {
+              "name": "Eletrônicos",
+              "description": "Smartphones, notebooks e acessórios"
+            }
+            </code>
+            </remarks>
+            <param name="request">Dados da categoria a ser criada.</param>
+            <response code="201">Categoria criada com sucesso.</response>
+            <response code="400">Dados inválidos (ex.: nome vazio ou muito longo).</response>
+        </member>
+        <member name="M:OnlineStore.API.Controllers.CategoryController.Update(System.Guid,OnlineStore.Application.DTO.UpdateCategoryRequest)">
+            <summary>Atualiza o nome e/ou descrição de uma categoria existente.</summary>
+            <param name="id">GUID da categoria.</param>
+            <param name="request">Campos a serem atualizados (parcial).</param>
+            <response code="200">Categoria atualizada.</response>
+            <response code="400">Dados inválidos.</response>
+            <response code="404">Categoria não encontrada.</response>
+        </member>
+        <member name="M:OnlineStore.API.Controllers.CategoryController.Delete(System.Guid)">
+            <summary>Remove uma categoria pelo identificador único.</summary>
+            <param name="id">GUID da categoria.</param>
+            <response code="204">Categoria removida.</response>
+            <response code="404">Categoria não encontrada.</response>
+        </member>
+        <member name="T:OnlineStore.API.Controllers.ProductController">
+            <summary>Gerenciamento do catálogo de produtos.</summary>
+        </member>
+        <member name="M:OnlineStore.API.Controllers.ProductController.GetAll">
+            <summary>Retorna todos os produtos do catálogo.</summary>
+            <response code="200">Lista de produtos retornada com sucesso.</response>
+        </member>
+        <member name="M:OnlineStore.API.Controllers.ProductController.GetById(System.Guid)">
+            <summary>Busca um produto pelo identificador único.</summary>
+            <param name="id">GUID do produto.</param>
+            <response code="200">Produto encontrado.</response>
+            <response code="404">Produto não encontrado.</response>
+        </member>
+        <member name="M:OnlineStore.API.Controllers.ProductController.GetByName(System.String)">
+            <summary>Busca um produto pelo nome.</summary>
+            <param name="name">Nome do produto.</param>
+            <response code="200">Produto encontrado.</response>
+            <response code="404">Produto não encontrado.</response>
+        </member>
+        <member name="M:OnlineStore.API.Controllers.ProductController.Create(OnlineStore.Application.DTO.CreateProductRequest)">
+            <summary>Cria um novo produto no catálogo.</summary>
+            <param name="request">Dados do produto a ser criado.</param>
+            <response code="201">Produto criado com sucesso.</response>
+            <response code="400">Dados inválidos.</response>
+        </member>
+        <member name="M:OnlineStore.API.Controllers.ProductController.Update(System.Guid,OnlineStore.Application.DTO.UpdateProductRequest)">
+            <summary>Atualiza os dados de um produto existente.</summary>
+            <param name="id">GUID do produto.</param>
+            <param name="request">Campos a serem atualizados (parcial).</param>
+            <response code="200">Produto atualizado.</response>
+            <response code="400">Dados inválidos.</response>
+            <response code="404">Produto não encontrado.</response>
+        </member>
+        <member name="M:OnlineStore.API.Controllers.ProductController.Delete(System.Guid)">
+            <summary>Remove um produto do catálogo.</summary>
+            <param name="id">GUID do produto.</param>
+            <response code="204">Produto removido.</response>
+            <response code="404">Produto não encontrado.</response>
+        </member>
+        <member name="T:OnlineStore.API.Exceptions.GlobalExceptionHandler">
+            <summary>
+            Handler centralizado de exceções. Converte exceções em respostas RFC 7807 (ProblemDetails).
+            Registrado no pipeline via <c>app.UseExceptionHandler()</c>.
+            </summary>
+            <remarks>
+            Mapeamento de exceções para códigos HTTP:
+            <list type="table">
+              <listheader><term>Exceção</term><description>Status HTTP</description></listheader>
+              <item><term>ArgumentException / ArgumentNullException</term><description>400 Bad Request</description></item>
+              <item><term>InvalidOperationException</term><description>400 Bad Request</description></item>
+              <item><term>DomainException</term><description>400 Bad Request</description></item>
+              <item><term>ResourceNotFoundException / KeyNotFoundException</term><description>404 Not Found</description></item>
+              <item><term>Qualquer outra exceção</term><description>500 Internal Server Error</description></item>
+            </list>
+            </remarks>
+        </member>
+        <member name="M:OnlineStore.API.Exceptions.GlobalExceptionHandler.#ctor(Microsoft.Extensions.Logging.ILogger{OnlineStore.API.Exceptions.GlobalExceptionHandler},Microsoft.Extensions.Hosting.IHostEnvironment)">
+            <summary>
+            Handler centralizado de exceções. Converte exceções em respostas RFC 7807 (ProblemDetails).
+            Registrado no pipeline via <c>app.UseExceptionHandler()</c>.
+            </summary>
+            <remarks>
+            Mapeamento de exceções para códigos HTTP:
+            <list type="table">
+              <listheader><term>Exceção</term><description>Status HTTP</description></listheader>
+              <item><term>ArgumentException / ArgumentNullException</term><description>400 Bad Request</description></item>
+              <item><term>InvalidOperationException</term><description>400 Bad Request</description></item>
+              <item><term>DomainException</term><description>400 Bad Request</description></item>
+              <item><term>ResourceNotFoundException / KeyNotFoundException</term><description>404 Not Found</description></item>
+              <item><term>Qualquer outra exceção</term><description>500 Internal Server Error</description></item>
+            </list>
+            </remarks>
+        </member>
+        <member name="T:OnlineStore.API.Extensions.SwaggerExtensions">
+            <summary>
+            Extensões para configuração do Swagger/OpenAPI na DI e no pipeline.
+            </summary>
+        </member>
+        <member name="M:OnlineStore.API.Extensions.SwaggerExtensions.AddOnlineStoreSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Registra e configura o Swagger com metadados do domínio e comentários XML.
+            </summary>
+        </member>
+        <member name="M:OnlineStore.API.Extensions.SwaggerExtensions.UseOnlineStoreSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Habilita o middleware de Swagger UI no pipeline de requisições.
+            </summary>
+        </member>
+        <member name="T:Program">
+            <summary>
+            Auto-generated public partial Program class for top-level statement apps.
+            </summary>
+        </member>
+    </members>
+</doc>

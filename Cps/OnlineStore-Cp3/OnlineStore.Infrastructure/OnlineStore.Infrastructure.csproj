@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.14" />
+    <PackageReference Include="Oracle.EntityFrameworkCore" Version="9.23.60" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineStore.Application\OnlineStore.Application.csproj" />
+    <ProjectReference Include="..\OnlineStore.Domain\OnlineStore.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+</Project>
