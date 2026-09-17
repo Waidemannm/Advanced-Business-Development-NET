@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kmZs9tojtXk=",
+  "dgSpecHash": "wYHSLTYdxug=",
   "success": true,
-  "projectFilePath": "/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp3/OnlineStore.Domain.Tests/OnlineStore.Domain.Tests.csproj",
+  "projectFilePath": "/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Domain.Tests/OnlineStore.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/waidemannn_m/.nuget/packages/coverlet.collector/6.0.4/coverlet.collector.6.0.4.nupkg.sha512",
     "/Users/waidemannn_m/.nuget/packages/microsoft.codecoverage/17.14.1/microsoft.codecoverage.17.14.1.nupkg.sha512",

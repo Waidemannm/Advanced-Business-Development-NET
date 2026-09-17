@@ -2776,11 +2776,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp3/OnlineStore.API/OnlineStore.API.csproj",
+      "projectUniqueName": "/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.API/OnlineStore.API.csproj",
       "projectName": "OnlineStore.API",
-      "projectPath": "/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp3/OnlineStore.API/OnlineStore.API.csproj",
+      "projectPath": "/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.API/OnlineStore.API.csproj",
       "packagesPath": "/Users/waidemannn_m/.nuget/packages/",
-      "outputPath": "/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp3/OnlineStore.API/obj/",
+      "outputPath": "/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/waidemannn_m/.nuget/NuGet/NuGet.Config"
@@ -2795,11 +2795,11 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp3/OnlineStore.Application/OnlineStore.Application.csproj": {
-              "projectPath": "/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp3/OnlineStore.Application/OnlineStore.Application.csproj"
+            "/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Application/OnlineStore.Application.csproj": {
+              "projectPath": "/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Application/OnlineStore.Application.csproj"
             },
-            "/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp3/OnlineStore.Infrastructure/OnlineStore.Infrastructure.csproj": {
-              "projectPath": "/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp3/OnlineStore.Infrastructure/OnlineStore.Infrastructure.csproj"
+            "/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Infrastructure/OnlineStore.Infrastructure.csproj": {
+              "projectPath": "/Users/waidemannn_m/Desktop/Class-2ano-FIAP/Development-net/Advanced-Business-Development-NET/Cps/OnlineStore-Cp4/OnlineStore.Infrastructure/OnlineStore.Infrastructure.csproj"
             }
           }
         }
